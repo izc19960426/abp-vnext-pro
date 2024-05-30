@@ -9,5 +9,5 @@ public static class AbpProCapServiceCollectionExtensions
         context.Services.AddTransient<AbpProCapUnitOfWork>();
         context.Services.AddCap(capAction);
         return context;
-    }
+    } 
 }
